@@ -16,7 +16,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.util.Random;
 
-public class HelloController {
+public class Controller {
 
     public TextField textbox;
     public Label title;
