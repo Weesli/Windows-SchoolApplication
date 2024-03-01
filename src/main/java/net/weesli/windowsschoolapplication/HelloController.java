@@ -8,7 +8,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -41,6 +40,8 @@ public class HelloController {
         }
         title.setText(title.getText().replaceAll("<code>" , builder.toString()));
     }
+
+    // TODO: WAIT THIS STEP
 
     @FXML
     public void CheckCode(MouseEvent e){
